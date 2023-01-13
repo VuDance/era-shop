@@ -1,0 +1,7 @@
+.sidebar {
+  width: 230px;
+}
+.ant-menu-item-selected {
+  background-color: #b1488e !important;
+  color: white !important;
+}

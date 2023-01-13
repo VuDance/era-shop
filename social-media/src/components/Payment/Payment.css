@@ -1,0 +1,37 @@
+.confirm-btn-napas {
+  background-color: #b1488e;
+  height: 38px;
+  padding: 10px;
+  color: white;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  border: none;
+  border-radius: 3px;
+  transition: all 0.2s ease;
+}
+.confirm-btn-napas:hover {
+  transform: scale(1.02);
+  color: white;
+}
+.modal-payment-success .ant-modal-content {
+  background-color: #fff !important;
+}
+.modal-payment-napas .ant-modal-content {
+  height: 300px;
+  background-color: transparent !important;
+  background-size: cover;
+  background-image: url("https://thebank.vn/uploads/2019/07/30/thebank_napaslaginogiupgichocachoatdongthanhtoanhiennay_1564459302.png");
+}
+.modal-payment-momo .ant-modal-content {
+  height: 300px;
+  background-color: transparent !important;
+  background-size: cover;
+  background-image: url("https://static.mservice.io/img/momo-upload-api-220110181113-637774350739093965.jpg");
+}
+.ant-modal-footer {
+  position: absolute;
+  bottom: 20px !important;
+  right: 20px;
+}

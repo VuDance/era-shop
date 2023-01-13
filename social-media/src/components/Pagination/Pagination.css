@@ -1,0 +1,9 @@
+.pagination {
+  position: absolute;
+  bottom: 5px;
+  width: 98%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

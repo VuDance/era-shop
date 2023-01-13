@@ -1,0 +1,103 @@
+.confirm-order-wrapper {
+  width: 100%;
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.confirm-order-container {
+  padding: 30px 30px;
+  width: 80%;
+  -webkit-box-shadow: 0 3px 6px -4px rgb(0 0 0 / 16%),
+    0 3px 6px rgb(0 0 0 / 23%);
+  box-shadow: 0 3px 6px -4px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+}
+.confirm-order-desc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+.confirm-order-address {
+  margin-left: 50px;
+}
+.confirm-order-address p {
+  margin: 0 0 5px 0;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.confirm-order {
+  background-color: #b1488e;
+  height: 38px;
+  padding: 10px;
+  color: white;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  border: none;
+  border-radius: 3px;
+  transition: all 0.2s ease;
+}
+.confirm-order:hover {
+  transform: scale(1.02);
+  color: white;
+}
+.form-order {
+  padding: 20px 20px;
+  width: 400px;
+  gap: 10px;
+  overflow: hidden;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 3px 6px -4px rgb(0 0 0 / 16%),
+    0 3px 6px rgb(0 0 0 / 23%);
+  box-shadow: 0 3px 6px -4px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+}
+.form-order h4 {
+  margin: -20px -20px 0 -20px;
+  background-color: #b1488e;
+  font-weight: 700;
+  color: white;
+  padding: 10px 20px;
+}
+.form-order-desc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  font-weight: 500;
+  margin-top: 10px !important;
+}
+.form-order-desc:last-child {
+  border-top: #b1488e 1px solid;
+  margin-top: 20px;
+  font-weight: 700 !important;
+  color: red;
+  font-size: 20px;
+}
+.confirm-order-desc p {
+  margin: 0;
+}
+.form-order-cart {
+  border-top: #b1488e 1px solid;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+.form-order-cart-wrapper {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.order-cart-item {
+  display: flex;
+  margin-top: 10px !important;
+}

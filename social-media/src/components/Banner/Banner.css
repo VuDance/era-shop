@@ -1,0 +1,28 @@
+.banner {
+  height: 650px;
+  width: 100%;
+  position: relative;
+}
+.banner video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.banner-text {
+  font-weight: 700;
+  position: absolute;
+  font-size: 20px;
+  color: white;
+  top: 100px;
+  left: 100px;
+}
+.banner-text h1,
+.banner-text h5 {
+  background: -webkit-linear-gradient(#c25ba2, #110d30);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.banner-text h1 {
+  font-size: 47px;
+  font-weight: 700;
+}
